@@ -12,6 +12,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Proof journal template](notes/proof-journal-template.md)
 - [Proof journal error taxonomy and entry gates](notes/proof-journal-error-taxonomy.md)
 - [Weekly proof review card](notes/weekly-proof-review-card.md)
+- [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 
 ## Preview
 
@@ -44,10 +45,11 @@ The recommendations here were built from a small public stack:
 
 If you only take one thing from this repo, make it the proof journal and the weekly review habit.
 
-Start with these two files together:
+Start with these three together:
 
 - `notes/proof-journal-template.md`
 - `notes/weekly-proof-review-card.md`
+- `notebooks/first-proof-problem-bundle.ipynb`
 
 That is where the plan stops being a nice outline and starts becoming real.
 
