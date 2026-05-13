@@ -84,6 +84,7 @@ Classify the week honestly:
 - Problem types mixed:
 - What I misclassified:
 - What cue should I notice earlier next time:
+- Which method would have been cleaner in retrospect, and why:
 
 ## Load decision
 - Week rating: green / yellow / red
@@ -140,5 +141,5 @@ That gives the week a better chance of improving actual proof control instead of
 
 ## Rejected source for this bounded pass
 
-- **Nature Review — The science of effective learning with spacing and retrieval practice**  
+- **Nature Review: The science of effective learning with spacing and retrieval practice**  
   Rejected for this pass because the fetch result was too truncated / cookie-gated in-tool to use cleanly, even though the topic itself is relevant.

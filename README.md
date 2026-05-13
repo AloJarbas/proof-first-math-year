@@ -9,14 +9,22 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Essay: a proof-first math year for scientists](notes/proof-first-math-year-for-scientists.md)
 - [One-year sequence](notes/one-year-sequence.md)
 - [First 12 weeks staging](notes/first-12-weeks.md)
+- [Proof dependency roadmap](notes/proof-dependency-roadmap.md)
 - [Proof journal template](notes/proof-journal-template.md)
 - [Proof journal error taxonomy and entry gates](notes/proof-journal-error-taxonomy.md)
 - [Weekly proof review card](notes/weekly-proof-review-card.md)
+- [Proof-method cue card](notes/proof-method-cue-card.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 
 ## Preview
 
+### Year timeline
+
 ![Proof-first math year timeline](assets/proof-first-math-year-timeline.png)
+
+### Dependency roadmap
+
+![Proof dependency roadmap](assets/proof-dependency-roadmap.svg)
 
 ## Why this repo exists
 
@@ -41,15 +49,24 @@ The recommendations here were built from a small public stack:
 - MIT OpenCourseWare 18.100A, *Real Analysis*
 - OSSU Math
 
+## Rebuild the roadmap graphic
+
+```bash
+python3 scripts/generate_dependency_roadmap.py
+```
+
 ## Use it
 
 If you only take one thing from this repo, make it the proof journal and the weekly review habit.
 
-Start with these three together:
+Start with these four together:
 
 - `notes/proof-journal-template.md`
 - `notes/weekly-proof-review-card.md`
+- `notes/proof-method-cue-card.md`
 - `notebooks/first-proof-problem-bundle.ipynb`
+
+Then use `notes/proof-dependency-roadmap.md` when you need to decide whether a new subject should become a main lane or stay a light preview.
 
 That is where the plan stops being a nice outline and starts becoming real.
 
