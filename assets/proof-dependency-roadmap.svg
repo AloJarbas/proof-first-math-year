@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1060">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#071018"/>
@@ -12,82 +12,82 @@
     .tiny { font: 500 13px Helvetica, Arial, sans-serif; fill: #90a4ba; }
   </style>
 </defs>
-<rect width="1440" height="920" fill="url(#bg)"/>
+<rect width="1600" height="1060" fill="url(#bg)"/>
 <text x="60.0" y="64.0" class="title" text-anchor="start">Proof-first dependency roadmap</text>
-<text x="60.0" y="96.0" class="subtitle" text-anchor="start">A study map for deciding what unlocks what, and when a new stream should stay light instead of taking over.</text>
-<rect x="80.0" y="160.0" width="310.0" height="220.0" rx="20" fill="#1b2c3d" stroke="#5e7fa3" stroke-width="2"/>
-<text x="102.0" y="196.0" class="label" text-anchor="start">1. Proof foundations</text>
-<text x="102.0" y="222.0" class="small" text-anchor="start">The non-negotiable bottleneck.</text>
-<text x="104.0" y="258.0" class="small" text-anchor="start">• logic, sets, functions</text>
-<text x="104.0" y="280.0" class="small" text-anchor="start">• direct proof, contradiction, contrapositive</text>
-<text x="104.0" y="302.0" class="small" text-anchor="start">• induction, definitions, clean notation</text>
-<text x="104.0" y="324.0" class="small" text-anchor="start">• proof journal + error tags + weekly review</text>
-<rect x="470.0" y="160.0" width="300.0" height="220.0" rx="20" fill="#183544" stroke="#5e7fa3" stroke-width="2"/>
-<text x="492.0" y="196.0" class="label" text-anchor="start">2. Calculus spine</text>
-<text x="492.0" y="222.0" class="small" text-anchor="start">Bring back computation without dropping proof work.</text>
-<text x="494.0" y="258.0" class="small" text-anchor="start">• keep proof sessions alive</text>
-<text x="494.0" y="280.0" class="small" text-anchor="start">• use problem volume for fluency</text>
-<text x="494.0" y="302.0" class="small" text-anchor="start">• do not let procedure replace writing</text>
-<text x="494.0" y="324.0" class="small" text-anchor="start">• good secondary stream once proofs are holding</text>
-<rect x="850.0" y="160.0" width="300.0" height="220.0" rx="20" fill="#19354a" stroke="#5e7fa3" stroke-width="2"/>
-<text x="872.0" y="196.0" class="label" text-anchor="start">3. Discrete reinforcement</text>
-<text x="872.0" y="222.0" class="small" text-anchor="start">Formal structure that pays back into proof style.</text>
-<text x="874.0" y="258.0" class="small" text-anchor="start">• relations, counting, recurrence, induction</text>
-<text x="874.0" y="280.0" class="small" text-anchor="start">• definition handling gets sharper</text>
-<text x="874.0" y="302.0" class="small" text-anchor="start">• best added after proof habit is real</text>
-<text x="874.0" y="324.0" class="small" text-anchor="start">• keep it lighter than the main spine</text>
-<rect x="470.0" y="470.0" width="300.0" height="220.0" rx="20" fill="#25314b" stroke="#5e7fa3" stroke-width="2"/>
-<text x="492.0" y="506.0" class="label" text-anchor="start">4. Linear algebra</text>
-<text x="492.0" y="532.0" class="small" text-anchor="start">Preview early, then study honestly once the language is stable.</text>
-<text x="494.0" y="568.0" class="small" text-anchor="start">• start with systems, geometry, eigenideas</text>
-<text x="494.0" y="590.0" class="small" text-anchor="start">• then move toward vector spaces and maps</text>
-<text x="494.0" y="612.0" class="small" text-anchor="start">• works better after proof language stops feeling foreign</text>
-<text x="494.0" y="634.0" class="small" text-anchor="start">• use a preview before a full heavy block</text>
-<rect x="850.0" y="470.0" width="300.0" height="220.0" rx="20" fill="#2a3050" stroke="#5e7fa3" stroke-width="2"/>
-<text x="872.0" y="506.0" class="label" text-anchor="start">5. Real analysis</text>
-<text x="872.0" y="532.0" class="small" text-anchor="start">The maturity core waiting on prepared ground.</text>
-<text x="874.0" y="568.0" class="small" text-anchor="start">• limits, continuity, approximation, convergence</text>
-<text x="874.0" y="590.0" class="small" text-anchor="start">• forces clean hypothesis control</text>
-<text x="874.0" y="612.0" class="small" text-anchor="start">• best after proof + algebra structure + calculus fluency</text>
-<text x="874.0" y="634.0" class="small" text-anchor="start">• where mathematical precision starts to feel adult</text>
-<rect x="1170.0" y="470.0" width="200.0" height="220.0" rx="20" fill="#2b2b4e" stroke="#5e7fa3" stroke-width="2"/>
-<text x="1192.0" y="506.0" class="label" text-anchor="start">6. Probability</text>
-<text x="1192.0" y="532.0" class="small" text-anchor="start">Stronger when it lands on a mature base.</text>
-<text x="1194.0" y="568.0" class="small" text-anchor="start">• conditioning</text>
-<text x="1194.0" y="590.0" class="small" text-anchor="start">• random variables</text>
-<text x="1194.0" y="612.0" class="small" text-anchor="start">• expectation + variance</text>
-<text x="1194.0" y="634.0" class="small" text-anchor="start">• model before calculation</text>
-<rect x="470.0" y="760.0" width="420.0" height="110.0" rx="20" fill="#1f3b3d" stroke="#5e7fa3" stroke-width="2"/>
-<text x="492.0" y="796.0" class="label" text-anchor="start">7. Consolidation and integration</text>
-<text x="492.0" y="822.0" class="small" text-anchor="start">Rewrite weak proofs, revisit hard topics without notes, and tie the year back to scientific work.</text>
-<rect x="80.0" y="470.0" width="310.0" height="220.0" rx="20" fill="#3a2f27" stroke="#5e7fa3" stroke-width="2"/>
-<text x="102.0" y="506.0" class="label" text-anchor="start">Operating rule</text>
-<text x="102.0" y="532.0" class="small" text-anchor="start">Do not run four equal-intensity courses at once.</text>
-<text x="104.0" y="568.0" class="small" text-anchor="start">• proof stays primary until it stops fragmenting</text>
-<text x="104.0" y="590.0" class="small" text-anchor="start">• new streams begin as controlled additions</text>
-<text x="104.0" y="612.0" class="small" text-anchor="start">• review and rewrite count as real study</text>
-<text x="104.0" y="634.0" class="small" text-anchor="start">• narrowing the load is a sign of design, not failure</text>
-<line x1="390.0" y1="270.0" x2="470.0" y2="270.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="470.0,270.0 458.0,262.0 458.0,278.0" fill="#7dd3fc"/>
-<line x1="770.0" y1="270.0" x2="850.0" y2="270.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="850.0,270.0 838.0,262.0 838.0,278.0" fill="#7dd3fc"/>
-<line x1="620.0" y1="380.0" x2="620.0" y2="470.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="620.0,470.0 612.0,458.0 628.0,458.0" fill="#7dd3fc"/>
-<line x1="1000.0" y1="380.0" x2="1000.0" y2="470.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="1000.0,470.0 992.0,458.0 1008.0,458.0" fill="#7dd3fc"/>
-<line x1="770.0" y1="580.0" x2="850.0" y2="580.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="850.0,580.0 838.0,572.0 838.0,588.0" fill="#7dd3fc"/>
-<line x1="1270.0" y1="690.0" x2="1270.0" y2="760.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="8 10"/>
-<polygon points="1270.0,760.0 1262.0,748.0 1278.0,748.0" fill="#7dd3fc"/>
-<line x1="680.0" y1="690.0" x2="680.0" y2="760.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="680.0,760.0 672.0,748.0 688.0,748.0" fill="#7dd3fc"/>
-<line x1="1000.0" y1="690.0" x2="860.0" y2="815.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="860.0,815.0 848.0,807.0 848.0,823.0" fill="#7dd3fc"/>
-<line x1="235.0" y1="380.0" x2="235.0" y2="470.0" stroke="#f97316" stroke-width="3.0" stroke-linecap="round"/>
-<polygon points="235.0,470.0 227.0,458.0 243.0,458.0" fill="#f97316"/>
-<line x1="390.0" y1="320.0" x2="470.0" y2="530.0" stroke="#f97316" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="10 10"/>
-<polygon points="470.0,530.0 458.0,522.0 458.0,538.0" fill="#f97316"/>
-<text x="92.0" y="720.0" class="tiny" text-anchor="start">Orange links mark load-management advice, not hard prerequisite edges.</text>
-<text x="92.0" y="742.0" class="tiny" text-anchor="start">Blue links mark the main knowledge flow through the year.</text>
-<text x="60.0" y="892.0" class="tiny" text-anchor="start">Generated from scripts/generate_dependency_roadmap.py</text>
+<text x="60.0" y="96.0" class="subtitle" text-anchor="start"><tspan x="60.0" dy="0">A study map for deciding what unlocks what, and when a new stream should stay light</tspan><tspan x="60.0" dy="22">instead of taking over.</tspan></text>
+<rect x="90.0" y="180.0" width="350.0" height="250.0" rx="20" fill="#1b2c3d" stroke="#5e7fa3" stroke-width="2"/>
+<text x="112.0" y="216.0" class="label" text-anchor="start"><tspan x="112.0" dy="0">1. Proof foundations</tspan></text>
+<text x="112.0" y="248.0" class="small" text-anchor="start"><tspan x="112.0" dy="0">The non-negotiable bottleneck.</tspan></text>
+<text x="114.0" y="286.0" class="small" text-anchor="start">• logic, sets, functions</text>
+<text x="114.0" y="310.0" class="small" text-anchor="start">• direct proof, contradiction, contrapositive</text>
+<text x="114.0" y="334.0" class="small" text-anchor="start">• induction, definitions, clean notation</text>
+<text x="114.0" y="358.0" class="small" text-anchor="start">• proof journal + error tags + weekly review</text>
+<rect x="500.0" y="180.0" width="350.0" height="250.0" rx="20" fill="#183544" stroke="#5e7fa3" stroke-width="2"/>
+<text x="522.0" y="216.0" class="label" text-anchor="start"><tspan x="522.0" dy="0">2. Calculus spine</tspan></text>
+<text x="522.0" y="248.0" class="small" text-anchor="start"><tspan x="522.0" dy="0">Bring back computation without</tspan><tspan x="522.0" dy="20">dropping proof work.</tspan></text>
+<text x="524.0" y="306.0" class="small" text-anchor="start">• keep proof sessions alive</text>
+<text x="524.0" y="330.0" class="small" text-anchor="start">• use problem volume for fluency</text>
+<text x="524.0" y="354.0" class="small" text-anchor="start">• do not let procedure replace writing</text>
+<text x="524.0" y="378.0" class="small" text-anchor="start">• good secondary stream once proofs are holding</text>
+<rect x="910.0" y="180.0" width="350.0" height="250.0" rx="20" fill="#19354a" stroke="#5e7fa3" stroke-width="2"/>
+<text x="932.0" y="216.0" class="label" text-anchor="start"><tspan x="932.0" dy="0">3. Discrete reinforcement</tspan></text>
+<text x="932.0" y="248.0" class="small" text-anchor="start"><tspan x="932.0" dy="0">Formal structure that pays back</tspan><tspan x="932.0" dy="20">into proof style.</tspan></text>
+<text x="934.0" y="306.0" class="small" text-anchor="start">• relations, counting, recurrence, induction</text>
+<text x="934.0" y="330.0" class="small" text-anchor="start">• definition handling gets sharper</text>
+<text x="934.0" y="354.0" class="small" text-anchor="start">• best added after proof habit is real</text>
+<text x="934.0" y="378.0" class="small" text-anchor="start">• keep it lighter than the main spine</text>
+<rect x="90.0" y="500.0" width="350.0" height="250.0" rx="20" fill="#3a2f27" stroke="#5e7fa3" stroke-width="2"/>
+<text x="112.0" y="536.0" class="label" text-anchor="start"><tspan x="112.0" dy="0">Operating rule</tspan></text>
+<text x="112.0" y="568.0" class="small" text-anchor="start"><tspan x="112.0" dy="0">Do not run four equal-intensity</tspan><tspan x="112.0" dy="20">courses at once.</tspan></text>
+<text x="114.0" y="626.0" class="small" text-anchor="start">• proof stays primary until it stops fragmenting</text>
+<text x="114.0" y="650.0" class="small" text-anchor="start">• new streams begin as controlled additions</text>
+<text x="114.0" y="674.0" class="small" text-anchor="start">• review and rewrite count as real study</text>
+<text x="114.0" y="698.0" class="small" text-anchor="start">• narrowing the load is design, not failure</text>
+<rect x="500.0" y="500.0" width="350.0" height="250.0" rx="20" fill="#25314b" stroke="#5e7fa3" stroke-width="2"/>
+<text x="522.0" y="536.0" class="label" text-anchor="start"><tspan x="522.0" dy="0">4. Linear algebra</tspan></text>
+<text x="522.0" y="568.0" class="small" text-anchor="start"><tspan x="522.0" dy="0">Preview early, then study honestly</tspan><tspan x="522.0" dy="20">once the language is stable.</tspan></text>
+<text x="524.0" y="626.0" class="small" text-anchor="start">• start with systems, geometry, eigenideas</text>
+<text x="524.0" y="650.0" class="small" text-anchor="start">• then move toward vector spaces and maps</text>
+<text x="524.0" y="674.0" class="small" text-anchor="start">• works better after proof language settles</text>
+<text x="524.0" y="698.0" class="small" text-anchor="start">• use a preview before a full heavy block</text>
+<rect x="910.0" y="500.0" width="350.0" height="250.0" rx="20" fill="#2a3050" stroke="#5e7fa3" stroke-width="2"/>
+<text x="932.0" y="536.0" class="label" text-anchor="start"><tspan x="932.0" dy="0">5. Real analysis</tspan></text>
+<text x="932.0" y="568.0" class="small" text-anchor="start"><tspan x="932.0" dy="0">The maturity core waiting on</tspan><tspan x="932.0" dy="20">prepared ground.</tspan></text>
+<text x="934.0" y="626.0" class="small" text-anchor="start">• limits, continuity, approximation, convergence</text>
+<text x="934.0" y="650.0" class="small" text-anchor="start">• forces clean hypothesis control</text>
+<text x="934.0" y="674.0" class="small" text-anchor="start">• best after proof + algebra + calculus fluency</text>
+<text x="934.0" y="698.0" class="small" text-anchor="start">• where mathematical precision starts to feel adult</text>
+<rect x="1300.0" y="500.0" width="220.0" height="250.0" rx="20" fill="#2b2b4e" stroke="#5e7fa3" stroke-width="2"/>
+<text x="1322.0" y="536.0" class="label" text-anchor="start"><tspan x="1322.0" dy="0">6. Probability</tspan></text>
+<text x="1322.0" y="568.0" class="small" text-anchor="start"><tspan x="1322.0" dy="0">Stronger when it lands on a</tspan><tspan x="1322.0" dy="20">mature base.</tspan></text>
+<text x="1324.0" y="626.0" class="small" text-anchor="start">• conditioning</text>
+<text x="1324.0" y="650.0" class="small" text-anchor="start">• random variables</text>
+<text x="1324.0" y="674.0" class="small" text-anchor="start">• expectation + variance</text>
+<text x="1324.0" y="698.0" class="small" text-anchor="start">• model before calculation</text>
+<rect x="500.0" y="840.0" width="620.0" height="140.0" rx="20" fill="#1f3b3d" stroke="#5e7fa3" stroke-width="2"/>
+<text x="522.0" y="876.0" class="label" text-anchor="start"><tspan x="522.0" dy="0">7. Consolidation and integration</tspan></text>
+<text x="522.0" y="908.0" class="small" text-anchor="start"><tspan x="522.0" dy="0">Rewrite weak proofs, revisit hard topics without notes,</tspan><tspan x="522.0" dy="20">and tie the year back to scientific work.</tspan></text>
+<line x1="440.0" y1="305.0" x2="500.0" y2="305.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="500.0,305.0 488.0,297.0 488.0,313.0" fill="#7dd3fc"/>
+<line x1="850.0" y1="305.0" x2="910.0" y2="305.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="910.0,305.0 898.0,297.0 898.0,313.0" fill="#7dd3fc"/>
+<line x1="675.0" y1="430.0" x2="675.0" y2="500.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="675.0,500.0 667.0,488.0 683.0,488.0" fill="#7dd3fc"/>
+<line x1="1085.0" y1="430.0" x2="1085.0" y2="500.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="1085.0,500.0 1077.0,488.0 1093.0,488.0" fill="#7dd3fc"/>
+<line x1="850.0" y1="625.0" x2="910.0" y2="625.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="910.0,625.0 898.0,617.0 898.0,633.0" fill="#7dd3fc"/>
+<line x1="1410.0" y1="750.0" x2="1410.0" y2="840.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="8 10"/>
+<polygon points="1410.0,840.0 1402.0,828.0 1418.0,828.0" fill="#7dd3fc"/>
+<line x1="675.0" y1="750.0" x2="675.0" y2="840.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="675.0,840.0 667.0,828.0 683.0,828.0" fill="#7dd3fc"/>
+<line x1="1085.0" y1="750.0" x2="1000.0" y2="840.0" stroke="#7dd3fc" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="1000.0,840.0 988.0,832.0 988.0,848.0" fill="#7dd3fc"/>
+<line x1="265.0" y1="430.0" x2="265.0" y2="500.0" stroke="#f97316" stroke-width="3.0" stroke-linecap="round"/>
+<polygon points="265.0,500.0 257.0,488.0 273.0,488.0" fill="#f97316"/>
+<line x1="440.0" y1="355.0" x2="500.0" y2="560.0" stroke="#f97316" stroke-width="3.0" stroke-linecap="round" stroke-dasharray="10 10"/>
+<polygon points="500.0,560.0 488.0,552.0 488.0,568.0" fill="#f97316"/>
+<text x="92.0" y="936.0" class="tiny" text-anchor="start">Orange links mark load-management advice, not hard prerequisite edges.</text>
+<text x="92.0" y="958.0" class="tiny" text-anchor="start">Blue links mark the main knowledge flow through the year.</text>
+<text x="60.0" y="1018.0" class="tiny" text-anchor="start">Generated from scripts/generate_dependency_roadmap.py</text>
 </svg>
