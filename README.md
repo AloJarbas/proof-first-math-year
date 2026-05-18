@@ -15,6 +15,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Weekly proof review card](notes/weekly-proof-review-card.md)
 - [Proof-method cue card](notes/proof-method-cue-card.md)
 - [Proof-study loop: retrieval, worked examples, and interleaving](notes/proof-study-loop-retrieval-examples-interleaving.md)
+- [Using the dependency map to shrink or pause secondary streams](notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 
 ## Preview
@@ -68,7 +69,7 @@ Start with these five together:
 - `notes/proof-study-loop-retrieval-examples-interleaving.md`
 - `notebooks/first-proof-problem-bundle.ipynb`
 
-Then use `notes/proof-dependency-roadmap.md` when you need to decide whether a new subject should become a main lane or stay a light preview.
+Then use `notes/proof-dependency-roadmap.md` and `notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md` when you need to decide whether a new subject should become a main lane, shrink to preview mode, or pause for a while.
 
 That is where the plan stops being a nice outline and starts becoming real.
 
