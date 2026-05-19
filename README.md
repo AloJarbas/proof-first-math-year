@@ -17,6 +17,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Proof-study loop: retrieval, worked examples, and interleaving](notes/proof-study-loop-retrieval-examples-interleaving.md)
 - [Using the dependency map to shrink or pause secondary streams](notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
+- [Companion notebook: mixed proof-method problem bundle](notebooks/mixed-proof-method-problem-bundle.ipynb)
 
 ## Preview
 
@@ -68,6 +69,12 @@ Start with these five together:
 - `notes/proof-method-cue-card.md`
 - `notes/proof-study-loop-retrieval-examples-interleaving.md`
 - `notebooks/first-proof-problem-bundle.ipynb`
+
+Once that first bundle stops feeling fragile, add:
+
+- `notebooks/mixed-proof-method-problem-bundle.ipynb`
+
+That second notebook is for the next bottleneck: not proof form by itself, but choosing the right method and checking whether the proof move was actually justified.
 
 Then use `notes/proof-dependency-roadmap.md` and `notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md` when you need to decide whether a new subject should become a main lane, shrink to preview mode, or pause for a while.
 
