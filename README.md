@@ -17,9 +17,11 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Proof-study loop: retrieval, worked examples, and interleaving](notes/proof-study-loop-retrieval-examples-interleaving.md)
 - [Using the dependency map to shrink or pause secondary streams](notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md)
 - [Linear algebra bridge packet](notes/linear-algebra-bridge-packet.md)
+- [Linear algebra bridge follow-up packet](notes/linear-algebra-bridge-follow-up-packet.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 - [Companion notebook: mixed proof-method problem bundle](notebooks/mixed-proof-method-problem-bundle.ipynb)
 - [Companion notebook: linear algebra bridge problem bundle](notebooks/linear-algebra-bridge-problem-bundle.ipynb)
+- [Companion notebook: linear algebra second bridge bundle](notebooks/linear-algebra-second-bridge-bundle.ipynb)
 
 ## Preview
 
@@ -81,6 +83,8 @@ That second notebook is for the next bottleneck: not proof form by itself, but c
 Then use `notes/proof-dependency-roadmap.md` and `notes/using-the-dependency-map-to-shrink-or-pause-secondary-streams.md` when you need to decide whether a new subject should become a main lane, shrink to preview mode, or pause for a while.
 
 If linear algebra is the next pressure point, read `notes/linear-algebra-bridge-packet.md` before turning it into a full second lane. Then work through `notebooks/linear-algebra-bridge-problem-bundle.ipynb` while writing one structural sentence after each computation. That pair is the short bridge between "I finished some proof work" and "I can actually study vector spaces without collapsing back into symbol panic."
+
+If that first bridge starts to hold, use `notes/linear-algebra-bridge-follow-up-packet.md` with `notebooks/linear-algebra-second-bridge-bundle.ipynb`. That second pair adds proof pressure without exploding the scope: one subspace proof, one kernel/image proof, one basis-extension exercise, and one clean diagonalization failure.
 
 That is where the plan stops being a nice outline and starts becoming real.
 

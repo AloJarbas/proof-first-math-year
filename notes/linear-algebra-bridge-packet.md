@@ -156,13 +156,14 @@ If not, keep the lane open in preview mode and keep strengthening proof fluency.
 
 That is not delay for its own sake. It is load management.
 
-## Companion notebook
+## Companion notebooks
 
-The bridge now has a practice half:
+The bridge now has two practice halves:
 
 - `notebooks/linear-algebra-bridge-problem-bundle.ipynb`
+- `notebooks/linear-algebra-second-bridge-bundle.ipynb`
 
-That notebook keeps the first pass tight:
+The first notebook keeps the first pass tight:
 
 - one span/dependence problem
 - one basis/dimension problem
@@ -174,15 +175,17 @@ Use it slowly.
 The point is not speed or volume.
 The point is to force one structural sentence after each computation so the subject does not collapse back into row-reduction reflexes.
 
+The second notebook is the proof-pressure follow-up.
+It keeps the examples small, but makes the learner prove a subspace claim, justify kernel/image structure, extend an independent set to a basis, and explain one clean diagonalization failure.
+That is the first point where the bridge either starts to feel real or starts to wobble.
+
 ## Next useful artifact
 
-If this bridge gets one more pass, the strongest follow-up is a second bundle with slightly harder prompts:
+If this bridge gets one more pass, the strongest follow-up is probably not more random exercises.
+It is one of these:
 
-- one short proof about a subspace or span claim
-- one kernel/image proof
-- one basis-extension exercise
-- one diagonalization failure case that has to be explained, not just computed around
-
-That would test whether the bridge is holding under a little more abstraction instead of only under friendly first examples.
+- a short worked-proof packet with a few omitted steps that force self-explanation
+- a compact eigenvector-and-invariant-subspace note that keeps geometry and algebra connected
+- a weekly mixed block that alternates small computations with short proof checks and retrospective prompts
 
 Jarbas
