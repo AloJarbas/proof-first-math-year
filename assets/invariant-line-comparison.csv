@@ -1,0 +1,4 @@
+key,title,matrix,trace,determinant,discriminant,real_invariant_line_count,preserved_space,failure_story
+diagonal,Diagonal scaling,"[[3, 0], [0, 0.5]]",3.500000,1.500000,6.250000,2,two invariant lines,No failure here. This is the clean diagonalizable case.
+rotation,Real rotation,"[[0.5, -0.866025], [0.866025, 0.5]]",1.000000,1.000000,-3.000000,0,the whole plane only,Failure type: no real eigenline at all.
+jordan,Defective Jordan block,"[[2, 1], [0, 2]]",4.000000,4.000000,0.000000,1,one invariant line,Failure type: one eigenline is not enough to span the plane.

@@ -19,11 +19,13 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Linear algebra bridge packet](notes/linear-algebra-bridge-packet.md)
 - [Linear algebra bridge follow-up packet](notes/linear-algebra-bridge-follow-up-packet.md)
 - [Eigenvectors and invariant subspaces](notes/eigenvectors-and-invariant-subspaces.md)
+- [Invariant lines, real rotation, and defect](notes/invariant-lines-rotation-and-defect.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 - [Companion notebook: mixed proof-method problem bundle](notebooks/mixed-proof-method-problem-bundle.ipynb)
 - [Companion notebook: linear algebra bridge problem bundle](notebooks/linear-algebra-bridge-problem-bundle.ipynb)
 - [Companion notebook: linear algebra second bridge bundle](notebooks/linear-algebra-second-bridge-bundle.ipynb)
 - [Companion notebook: eigenvectors and invariant subspaces](notebooks/eigenvectors-and-invariant-subspaces.ipynb)
+- [Companion notebook: invariant lines, real rotation, and defect](notebooks/invariant_lines_rotation_and_defect.ipynb)
 
 ## Preview
 
@@ -34,6 +36,10 @@ The core claim is simple: start by learning to read and write proofs, then add c
 ### Dependency roadmap
 
 ![Proof dependency roadmap](assets/proof-dependency-roadmap.svg)
+
+### Invariant-line comparison
+
+![Invariant-line comparison](assets/invariant-line-comparison.png)
 
 ## Why this repo exists
 
@@ -62,6 +68,7 @@ The recommendations here were built from a small public stack:
 
 ```bash
 python3 scripts/generate_dependency_roadmap.py
+python3 scripts/generate_invariant_line_comparison.py
 ```
 
 ## Use it
@@ -89,6 +96,8 @@ If linear algebra is the next pressure point, read `notes/linear-algebra-bridge-
 If that first bridge starts to hold, use `notes/linear-algebra-bridge-follow-up-packet.md` with `notebooks/linear-algebra-second-bridge-bundle.ipynb`. That second pair adds proof pressure without exploding the scope: one subspace proof, one kernel/image proof, one basis-extension exercise, and one clean diagonalization failure.
 
 Once that second bridge stops feeling like pure damage control, use `notes/eigenvectors-and-invariant-subspaces.md` with `notebooks/eigenvectors-and-invariant-subspaces.ipynb`. That pair is the next small structural step: it turns eigenvectors into invariant lines, shows why diagonalization really means a split into preserved lanes, and separates two different failure stories instead of treating every non-diagonalizable matrix as the same kind of problem.
+
+Then use `notes/invariant-lines-rotation-and-defect.md` with `notebooks/invariant_lines_rotation_and_defect.ipynb` and the generated comparison card in `assets/invariant-line-comparison.png`. That packet turns the abstract warning into one direct visual contrast: diagonal scaling really does split the plane into two invariant lines, a real rotation preserves the plane but no nonzero real line, and a defective Jordan block preserves one eigenline but still cannot finish the split.
 
 That is where the plan stops being a nice outline and starts becoming real.
 
