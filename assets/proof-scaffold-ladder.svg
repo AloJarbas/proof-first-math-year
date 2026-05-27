@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1600" viewBox="0 0 1780 1600">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#071018"/>
+    <stop offset="100%" stop-color="#10233a"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 40px Helvetica, Arial, sans-serif; fill: #e5eef7; }
+    .subtitle { font: 500 19px Helvetica, Arial, sans-serif; fill: #b4c3d4; }
+    .label { font: 700 22px Helvetica, Arial, sans-serif; fill: #dde7f1; }
+    .body { font: 500 17px Helvetica, Arial, sans-serif; fill: #c8d4e0; }
+    .small { font: 500 15px Helvetica, Arial, sans-serif; fill: #9fb2c7; }
+    .tiny { font: 500 14px Helvetica, Arial, sans-serif; fill: #92a5ba; }
+    .micro { font: 600 12px Helvetica, Arial, sans-serif; fill: #dbeafe; }
+  </style>
+</defs>
+<rect width="1780" height="1600" fill="url(#bg)"/>
+<text x="62.0" y="68.0" class="title" text-anchor="start">Proof scaffold ladder: fill the missing structural move</text>
+<text x="62.0" y="104.0" class="subtitle" text-anchor="start"><tspan x="62.0" dy="0">This packet is for the moment when a learner can follow a proof but still drops one crucial move.</tspan><tspan x="62.0" dy="24">The ladder stays compact: six problems, one generated card, one notebook, and answer-check prompts that force the missing structure to be said out loud.</tspan></text>
+<rect x="60.0" y="170.0" width="1080.0" height="980.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="84.0" y="208.0" class="label" text-anchor="start">Six problems, six common missing moves</text>
+<text x="84.0" y="236.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Rows get harder in a very specific way: more structure is omitted, so the learner has</tspan><tspan x="84.0" dy="20">to name more of the proof instead of only recognizing it after the fact.</tspan></text>
+<text x="90.0" y="286.0" class="small" text-anchor="start">problem</text>
+<rect x="540.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="578.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="578.0" dy="0">arbitrary</tspan><tspan x="578.0" dy="15">object</tspan></text>
+<rect x="624.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="662.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="662.0" dy="0">witness</tspan><tspan x="662.0" dy="15">or coeffs</tspan></text>
+<rect x="708.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="746.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="746.0" dy="0">closure</tspan><tspan x="746.0" dy="15">split</tspan></text>
+<rect x="792.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="830.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="830.0" dy="0">algebra</tspan><tspan x="830.0" dy="15">cleanup</tspan></text>
+<rect x="876.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="914.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="914.0" dy="0">contradiction</tspan><tspan x="914.0" dy="15">pivot</tspan></text>
+<rect x="960.0" y="244.0" width="76.0" height="54.0" rx="12.0" fill="#0d1726" stroke="#2b3b52" stroke-width="1.2"/>
+<text x="998.0" y="264.0" class="tiny" text-anchor="middle"><tspan x="998.0" dy="0">close</tspan><tspan x="998.0" dy="15">claim</tspan></text>
+<text x="1080.0" y="286.0" class="small" text-anchor="middle">level</text>
+<rect x="80.0" y="308.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="320.0" width="138.0" height="28.0" rx="14.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.0"/>
+<text x="161.0" y="339.0" class="micro" text-anchor="middle" fill="#04111f">PROOF FLUENCY</text>
+<text x="90.0" y="374.0" class="label" text-anchor="start">Subset chain</text>
+<text x="90.0" y="402.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">direct · sets · Choose one arbitrary element from</tspan><tspan x="90.0" dy="19">the first set and walk it through both inclusions.</tspan></text>
+<rect x="540.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="1.6"/>
+<text x="578.0" y="369.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="624.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="662.0" y="369.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="708.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="746.0" y="369.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="792.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="830.0" y="369.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="876.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="914.0" y="369.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="960.0" y="332.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="998.0" y="369.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="1046.0" y="330.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="1080.0" y="372.0" class="title" text-anchor="middle">1</text>
+<rect x="80.0" y="434.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="446.0" width="138.0" height="28.0" rx="14.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.0"/>
+<text x="161.0" y="465.0" class="micro" text-anchor="middle" fill="#04111f">PROOF FLUENCY</text>
+<text x="90.0" y="500.0" class="label" text-anchor="start">Divisibility under addition</text>
+<text x="90.0" y="528.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">direct · integers · Name the two divisibility</tspan><tspan x="90.0" dy="19">witnesses first, then recombine them into one new</tspan><tspan x="90.0" dy="19">witness.</tspan></text>
+<rect x="540.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="578.0" y="495.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="624.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="1.6"/>
+<text x="662.0" y="495.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="708.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="746.0" y="495.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="792.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="1.6"/>
+<text x="830.0" y="495.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="876.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="914.0" y="495.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="960.0" y="458.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="998.0" y="495.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="1046.0" y="456.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#38bdf8" stroke-width="2.0"/>
+<text x="1080.0" y="498.0" class="title" text-anchor="middle">2</text>
+<rect x="80.0" y="560.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="572.0" width="138.0" height="28.0" rx="14.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="0.0"/>
+<text x="161.0" y="591.0" class="micro" text-anchor="middle" fill="#04111f">LINEAR ALGEBRA BRIDGE</text>
+<text x="90.0" y="626.0" class="label" text-anchor="start">Kernel is a subspace</text>
+<text x="90.0" y="654.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">subspace proof · linear maps · The subspace proof</tspan><tspan x="90.0" dy="19">is not one sentence. It is zero vector,</tspan><tspan x="90.0" dy="19">additivity, and scalar closure in that order.</tspan></text>
+<rect x="540.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="578.0" y="621.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="624.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="662.0" y="621.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="708.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="746.0" y="621.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="792.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="830.0" y="621.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="876.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="914.0" y="621.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="960.0" y="584.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="998.0" y="621.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="1046.0" y="582.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="1080.0" y="624.0" class="title" text-anchor="middle">3</text>
+<rect x="80.0" y="686.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="698.0" width="138.0" height="28.0" rx="14.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="0.0"/>
+<text x="161.0" y="717.0" class="micro" text-anchor="middle" fill="#04111f">LINEAR ALGEBRA BRIDGE</text>
+<text x="90.0" y="752.0" class="label" text-anchor="start">T² = 0 forces Im(T) ⊆ Ker(T)</text>
+<text x="90.0" y="780.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">direct · linear maps · To prove image inside</tspan><tspan x="90.0" dy="19">kernel, start from an arbitrary image element and</tspan><tspan x="90.0" dy="19">expose the hidden preimage.</tspan></text>
+<rect x="540.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="578.0" y="747.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="624.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="662.0" y="747.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="708.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="746.0" y="747.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="792.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="830.0" y="747.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="876.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="914.0" y="747.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="960.0" y="710.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="998.0" y="747.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="1046.0" y="708.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="1080.0" y="750.0" class="title" text-anchor="middle">3</text>
+<rect x="80.0" y="812.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="824.0" width="138.0" height="28.0" rx="14.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="0.0"/>
+<text x="161.0" y="843.0" class="micro" text-anchor="middle" fill="#04111f">LINEAR ALGEBRA BRIDGE</text>
+<text x="90.0" y="878.0" class="label" text-anchor="start">Adjoining a vector outside the span</text>
+<text x="90.0" y="906.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">contradiction / linear combination · independence</tspan><tspan x="90.0" dy="19">· The key pivot is to force v into the old span if</tspan><tspan x="90.0" dy="19">the new coefficient is nonzero, then contradict</tspan><tspan x="90.0" dy="19">the hypothesis.</tspan></text>
+<rect x="540.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="578.0" y="873.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="624.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="662.0" y="873.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="708.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="746.0" y="873.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="792.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="830.0" y="873.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="876.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="914.0" y="873.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="960.0" y="836.0" width="76.0" height="62.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="998.0" y="873.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="1046.0" y="834.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#a78bfa" stroke-width="2.0"/>
+<text x="1080.0" y="876.0" class="title" text-anchor="middle">4</text>
+<rect x="80.0" y="938.0" width="1010.0" height="112.0" rx="18.0" fill="#0d1726" stroke="#27384d" stroke-width="1.5"/>
+<rect x="92.0" y="950.0" width="138.0" height="28.0" rx="14.0" fill="#f97316" stroke="#f97316" stroke-width="0.0"/>
+<text x="161.0" y="969.0" class="micro" text-anchor="middle" fill="#04111f">GEOMETRY FOLLOW-UP</text>
+<text x="90.0" y="1004.0" class="label" text-anchor="start">A real rotation has no nonzero invariant line</text>
+<text x="90.0" y="1032.0" class="small" text-anchor="start"><tspan x="90.0" dy="0">contradiction / components · invariant subspaces ·</tspan><tspan x="90.0" dy="19">Turn “invariant line” back into coordinates: if Ru</tspan><tspan x="90.0" dy="19">stayed on the same real line, one real scalar λ</tspan><tspan x="90.0" dy="19">would have to fit both rotated coordinates at</tspan><tspan x="90.0" dy="19">once.</tspan></text>
+<rect x="540.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#f97316" stroke="#f97316" stroke-width="1.6"/>
+<text x="578.0" y="999.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="624.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="662.0" y="999.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="708.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#122033" stroke="#334155" stroke-width="1.6"/>
+<text x="746.0" y="999.0" class="small" text-anchor="middle" fill="#7f93a8">given</text>
+<rect x="792.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#f97316" stroke="#f97316" stroke-width="1.6"/>
+<text x="830.0" y="999.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="876.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#f97316" stroke="#f97316" stroke-width="1.6"/>
+<text x="914.0" y="999.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="960.0" y="962.0" width="76.0" height="62.0" rx="16.0" fill="#f97316" stroke="#f97316" stroke-width="1.6"/>
+<text x="998.0" y="999.0" class="body" text-anchor="middle" fill="#04111f">missing</text>
+<rect x="1046.0" y="960.0" width="68.0" height="66.0" rx="18.0" fill="#10233a" stroke="#f97316" stroke-width="2.0"/>
+<text x="1080.0" y="1002.0" class="title" text-anchor="middle">5</text>
+<rect x="1170.0" y="170.0" width="550.0" height="446.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1194.0" y="208.0" class="label" text-anchor="start">What the six columns mean</text>
+<rect x="1194.0" y="242.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="258.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">choose an arbitrary object</tspan></text>
+<rect x="1194.0" y="304.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="320.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">name the hidden witness or</tspan><tspan x="1222.0" dy="20">coefficients</tspan></text>
+<rect x="1194.0" y="366.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="382.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">split the closure or case step</tspan><tspan x="1222.0" dy="20">cleanly</tspan></text>
+<rect x="1194.0" y="428.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="444.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">finish the algebra or coordinate</tspan><tspan x="1222.0" dy="20">cleanup</tspan></text>
+<rect x="1194.0" y="490.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="506.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">turn the false branch into a</tspan><tspan x="1222.0" dy="20">contradiction</tspan></text>
+<rect x="1194.0" y="552.0" width="16.0" height="16.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1222.0" y="568.0" class="body" text-anchor="start"><tspan x="1222.0" dy="0">say exactly what was proved</tspan></text>
+<rect x="1170.0" y="650.0" width="550.0" height="484.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1194.0" y="688.0" class="label" text-anchor="start">How to use the ladder</text>
+<text x="1194.0" y="730.0" class="body" text-anchor="start"><tspan x="1194.0" dy="0">• Do one row at a time. Fill only the highlighted</tspan><tspan x="1194.0" dy="23">moves before checking anything else.</tspan></text>
+<text x="1194.0" y="832.0" class="body" text-anchor="start"><tspan x="1194.0" dy="0">• After each proof, read the answer-check prompts and</tspan><tspan x="1194.0" dy="23">write one sentence fixing the first place your</tspan><tspan x="1194.0" dy="23">structure went soft.</tspan></text>
+<text x="1194.0" y="934.0" class="body" text-anchor="start"><tspan x="1194.0" dy="0">• If a row collapses, drop one stage but keep the same</tspan><tspan x="1194.0" dy="23">answer-check habit. The point is to repair proof form,</tspan><tspan x="1194.0" dy="23">not to farm harder topics for damage.</tspan></text>
+<text x="1194.0" y="1036.0" class="body" text-anchor="start"><tspan x="1194.0" dy="0">• When a row becomes routine, move to the next row</tspan><tspan x="1194.0" dy="23">without changing the writing standard: arbitrary</tspan><tspan x="1194.0" dy="23">object, witness, closure split, contradiction pivot,</tspan><tspan x="1194.0" dy="23">close the claim.</tspan></text>
+<rect x="60.0" y="1180.0" width="520.0" height="300.0" rx="24.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="84.0" y="1218.0" class="label" text-anchor="start">What this packet protects</text>
+<text x="84.0" y="1258.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">It keeps “I know the theorem” separate from “I can</tspan><tspan x="84.0" dy="23">actually write the proof skeleton.”</tspan></text>
+<text x="84.0" y="1364.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">That matters most at the linear-algebra handoff,</tspan><tspan x="84.0" dy="23">where learners often know the right words but</tspan><tspan x="84.0" dy="23">still skip the zero-vector or witness step.</tspan></text>
+<rect x="610.0" y="1180.0" width="520.0" height="300.0" rx="24.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="634.0" y="1218.0" class="label" text-anchor="start">Companion notebook</text>
+<text x="634.0" y="1258.0" class="body" text-anchor="start"><tspan x="634.0" dy="0">Open notebooks/proof_scaffold_ladder.ipynb after</tspan><tspan x="634.0" dy="23">reading the note.</tspan></text>
+<text x="634.0" y="1364.0" class="body" text-anchor="start"><tspan x="634.0" dy="0">The notebook keeps the same six problems but adds</tspan><tspan x="634.0" dy="23">starter lines, answer-check prompts, and short</tspan><tspan x="634.0" dy="23">reflection questions so the learner has to say the</tspan><tspan x="634.0" dy="23">missing move explicitly.</tspan></text>
+<rect x="1160.0" y="1180.0" width="520.0" height="300.0" rx="24.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1184.0" y="1218.0" class="label" text-anchor="start">Adversarial check</text>
+<text x="1184.0" y="1258.0" class="body" text-anchor="start"><tspan x="1184.0" dy="0">A learner can get the final theorem right while</tspan><tspan x="1184.0" dy="23">never naming the structural move that made it</tspan><tspan x="1184.0" dy="23">work.</tspan></text>
+<text x="1184.0" y="1364.0" class="body" text-anchor="start"><tspan x="1184.0" dy="0">This packet is only useful if it forces that move</tspan><tspan x="1184.0" dy="23">back into the writing. If the learner still writes</tspan><tspan x="1184.0" dy="23">“clearly” or “obvious” where the missing move</tspan><tspan x="1184.0" dy="23">belongs, the ladder did not land yet.</tspan></text>
+<text x="62.0" y="1560.0" class="tiny" text-anchor="start">Generated from scripts/generate_proof_scaffold_ladder.py and scripts/proof_scaffold_ladder.py</text>
+</svg>

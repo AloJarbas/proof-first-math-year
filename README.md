@@ -20,12 +20,14 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Linear algebra bridge follow-up packet](notes/linear-algebra-bridge-follow-up-packet.md)
 - [Eigenvectors and invariant subspaces](notes/eigenvectors-and-invariant-subspaces.md)
 - [Invariant lines, real rotation, and defect](notes/invariant-lines-rotation-and-defect.md)
+- [Proof scaffold ladder](notes/proof-scaffold-ladder.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 - [Companion notebook: mixed proof-method problem bundle](notebooks/mixed-proof-method-problem-bundle.ipynb)
 - [Companion notebook: linear algebra bridge problem bundle](notebooks/linear-algebra-bridge-problem-bundle.ipynb)
 - [Companion notebook: linear algebra second bridge bundle](notebooks/linear-algebra-second-bridge-bundle.ipynb)
 - [Companion notebook: eigenvectors and invariant subspaces](notebooks/eigenvectors-and-invariant-subspaces.ipynb)
 - [Companion notebook: invariant lines, real rotation, and defect](notebooks/invariant_lines_rotation_and_defect.ipynb)
+- [Companion notebook: proof scaffold ladder](notebooks/proof_scaffold_ladder.ipynb)
 
 ## Preview
 
@@ -40,6 +42,10 @@ The core claim is simple: start by learning to read and write proofs, then add c
 ### Invariant-line comparison
 
 ![Invariant-line comparison](assets/invariant-line-comparison.png)
+
+### Proof scaffold ladder
+
+![Proof scaffold ladder](assets/proof-scaffold-ladder.png)
 
 ## Why this repo exists
 
@@ -69,6 +75,7 @@ The recommendations here were built from a small public stack:
 ```bash
 python3 scripts/generate_dependency_roadmap.py
 python3 scripts/generate_invariant_line_comparison.py
+python3 scripts/generate_proof_scaffold_ladder.py
 ```
 
 ## Use it
@@ -98,6 +105,8 @@ If that first bridge starts to hold, use `notes/linear-algebra-bridge-follow-up-
 Once that second bridge stops feeling like pure damage control, use `notes/eigenvectors-and-invariant-subspaces.md` with `notebooks/eigenvectors-and-invariant-subspaces.ipynb`. That pair is the next small structural step: it turns eigenvectors into invariant lines, shows why diagonalization really means a split into preserved lanes, and separates two different failure stories instead of treating every non-diagonalizable matrix as the same kind of problem.
 
 Then use `notes/invariant-lines-rotation-and-defect.md` with `notebooks/invariant_lines_rotation_and_defect.ipynb` and the generated comparison card in `assets/invariant-line-comparison.png`. That packet turns the abstract warning into one direct visual contrast: diagonal scaling really does split the plane into two invariant lines, a real rotation preserves the plane but no nonzero real line, and a defective Jordan block preserves one eigenline but still cannot finish the split.
+
+After that, use `notes/proof-scaffold-ladder.md` with `notebooks/proof_scaffold_ladder.ipynb` and `assets/proof-scaffold-ladder.png`. That packet does something different: it stops the learner from hiding behind recognition alone. The six rows deliberately omit one or more structural moves, then force the learner to name the missing move with answer-check prompts before moving on.
 
 That is where the plan stops being a nice outline and starts becoming real.
 
