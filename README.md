@@ -35,7 +35,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 
 ### Dependency roadmap
 
-![Proof dependency roadmap](assets/proof-dependency-roadmap.svg)
+![Proof dependency roadmap](assets/proof-dependency-roadmap.png)
 
 ### Invariant-line comparison
 

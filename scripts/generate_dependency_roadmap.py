@@ -3,12 +3,45 @@ from __future__ import annotations
 
 from html import escape
 from pathlib import Path
+import shutil
+import subprocess
+import tempfile
 
 REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "assets/proof-dependency-roadmap.svg"
+OUT_PNG = REPO / "assets/proof-dependency-roadmap.png"
 
 WIDTH = 1600
 HEIGHT = 1060
+
+
+def export_png_from_svg(svg_path: Path, png_path: Path, *, size: int = 1800, dpi: int = 300) -> bool:
+    qlmanage = shutil.which("qlmanage")
+    if qlmanage is None:
+        return False
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        subprocess.run(
+            [qlmanage, "-t", "-s", str(size), "-o", tmpdir, str(svg_path)],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        generated = Path(tmpdir) / f"{svg_path.name}.png"
+        if not generated.exists():
+            raise FileNotFoundError(f"Quick Look did not generate {generated}")
+        png_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(generated, png_path)
+
+    sips = shutil.which("sips")
+    if sips is not None:
+        subprocess.run(
+            [sips, "--setProperty", "dpiWidth", str(dpi), "--setProperty", "dpiHeight", str(dpi), str(png_path)],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    return True
 
 
 def rect(x: float, y: float, w: float, h: float, fill: str, stroke: str = "#5e7fa3") -> str:
@@ -149,6 +182,8 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text('\n'.join(svg) + '\n')
     print(f'WROTE {OUT}')
+    if export_png_from_svg(OUT, OUT_PNG):
+        print(f'WROTE {OUT_PNG}')
 
 
 if __name__ == '__main__':
