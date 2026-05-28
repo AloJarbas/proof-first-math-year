@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1540" viewBox="0 0 1800 1540">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#071018"/>
+    <stop offset="100%" stop-color="#10233a"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 40px Helvetica, Arial, sans-serif; fill: #e5eef7; }
+    .subtitle { font: 500 19px Helvetica, Arial, sans-serif; fill: #b4c3d4; }
+    .label { font: 700 22px Helvetica, Arial, sans-serif; fill: #dde7f1; }
+    .body { font: 500 17px Helvetica, Arial, sans-serif; fill: #c8d4e0; }
+    .small { font: 500 15px Helvetica, Arial, sans-serif; fill: #9fb2c7; }
+    .tiny { font: 500 14px Helvetica, Arial, sans-serif; fill: #92a5ba; }
+    .micro { font: 700 12px Helvetica, Arial, sans-serif; fill: #04111f; }
+  </style>
+</defs>
+<rect width="1800" height="1540" fill="url(#bg)"/>
+<text x="62.0" y="68.0" class="title" text-anchor="start">Proof scaffold weekly bundle</text>
+<text x="62.0" y="104.0" class="subtitle" text-anchor="start"><tspan x="62.0" dy="0">One bounded week that turns the scaffold ladder into repeatable writing pressure.</tspan><tspan x="62.0" dy="24">The added pressure is simple: cold drafts first, answer-check prompts second, a missed-step tally all week, and a final repair loop chosen from the tally instead of gut feel.</tspan></text>
+<rect x="60.0" y="170.0" width="1030.0" height="214.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="82.0" y="188.0" width="116.0" height="30.0" rx="15.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.0"/>
+<text x="140.0" y="209.0" class="micro" text-anchor="middle">DAY 1</text>
+<text x="218.0" y="214.0" class="label" text-anchor="start">Proof fluency reset</text>
+<text x="1040.0" y="214.0" class="small" text-anchor="end">35 min</text>
+<text x="84.0" y="252.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">Problems: Subset chain; Divisibility under addition</tspan></text>
+<text x="84.0" y="292.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Focus: choose an arbitrary object, name the hidden witness or coefficients, say exactly what</tspan><tspan x="84.0" dy="20">was proved</tspan></text>
+<text x="84.0" y="328.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Exit gate: Each proof starts from the right object or witness and ends with the full</tspan><tspan x="84.0" dy="20">claim, not only the last symbolic line.</tspan></text>
+<rect x="60.0" y="406.0" width="1030.0" height="214.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="82.0" y="424.0" width="116.0" height="30.0" rx="15.0" fill="#22c55e" stroke="#22c55e" stroke-width="0.0"/>
+<text x="140.0" y="445.0" class="micro" text-anchor="middle">DAY 2</text>
+<text x="218.0" y="450.0" class="label" text-anchor="start">Linear-map closure discipline</text>
+<text x="1040.0" y="450.0" class="small" text-anchor="end">45 min</text>
+<text x="84.0" y="488.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">Problems: Kernel is a subspace; T² = 0 forces Im(T) ⊆ Ker(T)</tspan></text>
+<text x="84.0" y="528.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Focus: split the closure or case step cleanly, name the hidden witness or coefficients, say</tspan><tspan x="84.0" dy="20">exactly what was proved</tspan></text>
+<text x="84.0" y="564.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Exit gate: No line says “closure holds” or “clearly” where a computation or subset</tspan><tspan x="84.0" dy="20">sentence should appear.</tspan></text>
+<rect x="60.0" y="642.0" width="1030.0" height="214.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="82.0" y="660.0" width="116.0" height="30.0" rx="15.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="0.0"/>
+<text x="140.0" y="681.0" class="micro" text-anchor="middle">DAY 3</text>
+<text x="218.0" y="686.0" class="label" text-anchor="start">Contradiction pivot under pressure</text>
+<text x="1040.0" y="686.0" class="small" text-anchor="end">35 min</text>
+<text x="84.0" y="724.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">Problems: Adjoining a vector outside the span</tspan></text>
+<text x="84.0" y="764.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Focus: name the hidden witness or coefficients, turn the false branch into a contradiction,</tspan><tspan x="84.0" dy="20">say exactly what was proved</tspan></text>
+<text x="84.0" y="800.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Exit gate: The proof only counts if β ≠ 0 is the pivot that forces v into the old span</tspan><tspan x="84.0" dy="20">before the original independence appears.</tspan></text>
+<rect x="60.0" y="878.0" width="1030.0" height="214.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="82.0" y="896.0" width="116.0" height="30.0" rx="15.0" fill="#f97316" stroke="#f97316" stroke-width="0.0"/>
+<text x="140.0" y="917.0" class="micro" text-anchor="middle">DAY 4</text>
+<text x="218.0" y="922.0" class="label" text-anchor="start">Geometry without slogan memory</text>
+<text x="1040.0" y="922.0" class="small" text-anchor="end">40 min</text>
+<text x="84.0" y="960.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">Problems: A real rotation has no nonzero invariant line</tspan></text>
+<text x="84.0" y="1000.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Focus: choose an arbitrary object, finish the algebra or coordinate cleanup, turn the false</tspan><tspan x="84.0" dy="20">branch into a contradiction, say exactly what was proved</tspan></text>
+<text x="84.0" y="1036.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Exit gate: The contradiction has to come from the coordinate comparison itself, not from</tspan><tspan x="84.0" dy="20">visual intuition alone.</tspan></text>
+<rect x="60.0" y="1114.0" width="1030.0" height="214.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="82.0" y="1132.0" width="116.0" height="30.0" rx="15.0" fill="#facc15" stroke="#facc15" stroke-width="0.0"/>
+<text x="140.0" y="1153.0" class="micro" text-anchor="middle">DAY 5</text>
+<text x="218.0" y="1158.0" class="label" text-anchor="start">Repair loop and final rewrite</text>
+<text x="1040.0" y="1158.0" class="small" text-anchor="end">30 min</text>
+<text x="84.0" y="1196.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">Problems: Adaptive repair from tally</tspan></text>
+<text x="84.0" y="1236.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Focus: choose an arbitrary object, name the hidden witness or coefficients, split the</tspan><tspan x="84.0" dy="20">closure or case step cleanly, finish the algebra or coordinate cleanup, turn the false</tspan><tspan x="84.0" dy="20">branch into a contradiction, say exactly what was proved</tspan></text>
+<text x="84.0" y="1272.0" class="small" text-anchor="start"><tspan x="84.0" dy="0">Exit gate: The week only counts if the final rewrites replace the old vague hinge with a</tspan><tspan x="84.0" dy="20">visible structural move.</tspan></text>
+<rect x="1140.0" y="170.0" width="600.0" height="360.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1164.0" y="208.0" class="label" text-anchor="start">Why this is deeper than one good card</text>
+<text x="1164.0" y="252.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• The week keeps the same six structural moves visible,</tspan><tspan x="1164.0" dy="23">but now they have to survive on paper across five</tspan><tspan x="1164.0" dy="23">separate sessions.</tspan></text>
+<text x="1164.0" y="326.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• Days 1 to 4 assign a bounded proof packet instead of a</tspan><tspan x="1164.0" dy="23">giant worksheet, so the learner still has to rewrite</tspan><tspan x="1164.0" dy="23">weak proofs rather than drown them in volume.</tspan></text>
+<text x="1164.0" y="400.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• Day 5 refuses the usual fake reflection. The repair</tspan><tspan x="1164.0" dy="23">work has to come from the failure tally, not from</tspan><tspan x="1164.0" dy="23">whatever felt memorable.</tspan></text>
+<text x="1164.0" y="474.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• The notebook adds starter-free rewrites, answer-check</tspan><tspan x="1164.0" dy="23">prompts, and a short audit sentence after every session.</tspan></text>
+<rect x="1140.0" y="556.0" width="600.0" height="308.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1164.0" y="594.0" class="label" text-anchor="start">Failure tally and repair rule</text>
+<text x="1164.0" y="634.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">Track misses by the same six step families used in the</tspan><tspan x="1164.0" dy="23">scaffold ladder. Do not invent new categories just because</tspan><tspan x="1164.0" dy="23">a proof felt messy.</tspan></text>
+<rect x="1164.0" y="702.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="716.0" class="small" text-anchor="start">choose an arbitrary object</text>
+<rect x="1164.0" y="730.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="744.0" class="small" text-anchor="start">name the hidden witness or coefficients</text>
+<rect x="1164.0" y="758.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="772.0" class="small" text-anchor="start">split the closure or case step cleanly</text>
+<rect x="1164.0" y="786.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="800.0" class="small" text-anchor="start">finish the algebra or coordinate cleanup</text>
+<rect x="1164.0" y="814.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="828.0" class="small" text-anchor="start">turn the false branch into a contradiction</text>
+<rect x="1164.0" y="842.0" width="14.0" height="14.0" rx="4.0" fill="#dbeafe" stroke="#dbeafe" stroke-width="0.0"/>
+<text x="1192.0" y="856.0" class="small" text-anchor="start">say exactly what was proved</text>
+<rect x="1140.0" y="890.0" width="600.0" height="328.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="1164.0" y="928.0" class="label" text-anchor="start">Companion notebook</text>
+<text x="1164.0" y="972.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">notebooks/proof_scaffold_weekly_bundle.ipynb</tspan></text>
+<text x="1164.0" y="1036.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• One working page per day with prompts, starter lines,</tspan><tspan x="1164.0" dy="23">answer-check cues, and blank space for rewrites.</tspan></text>
+<text x="1164.0" y="1100.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• A small Python tally helper keeps the top missed step</tspan><tspan x="1164.0" dy="23">families easy to rank before the Day 5 repair loop.</tspan></text>
+<text x="1164.0" y="1164.0" class="body" text-anchor="start"><tspan x="1164.0" dy="0">• Use it after notes/proof-scaffold-weekly-bundle.md and</tspan><tspan x="1164.0" dy="23">notes/proof-scaffold-ladder.md, not instead of them.</tspan></text>
+<rect x="60.0" y="1260.0" width="1680.0" height="210.0" rx="24.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="84.0" y="1298.0" class="label" text-anchor="start">Session rhythm</text>
+<text x="84.0" y="1348.0" class="body" text-anchor="start"><tspan x="84.0" dy="0">1. Cold draft before</tspan><tspan x="84.0" dy="23">any rescue line.</tspan></text>
+<text x="418.0" y="1348.0" class="body" text-anchor="start"><tspan x="418.0" dy="0">2. Run the</tspan><tspan x="418.0" dy="23">answer-check prompts</tspan><tspan x="418.0" dy="23">and mark each missed</tspan><tspan x="418.0" dy="23">structural move.</tspan></text>
+<text x="758.0" y="1348.0" class="body" text-anchor="start"><tspan x="758.0" dy="0">3. Rewrite the first</tspan><tspan x="758.0" dy="23">vague hinge in full</tspan><tspan x="758.0" dy="23">sentences.</tspan></text>
+<text x="1098.0" y="1348.0" class="body" text-anchor="start"><tspan x="1098.0" dy="0">4. Finish with one</tspan><tspan x="1098.0" dy="23">sentence saying</tspan><tspan x="1098.0" dy="23">exactly what the proof</tspan><tspan x="1098.0" dy="23">established.</tspan></text>
+<text x="1438.0" y="1348.0" class="body" text-anchor="start"><tspan x="1438.0" dy="0">5. Let the tally</tspan><tspan x="1438.0" dy="23">choose the Day 5</tspan><tspan x="1438.0" dy="23">repair proofs.</tspan></text>
+<text x="62.0" y="1510.0" class="tiny" text-anchor="start">Generated from scripts/generate_proof_scaffold_weekly_bundle.py, scripts/proof_scaffold_weekly_bundle.py, and scripts/proof_scaffold_ladder.py</text>
+</svg>
