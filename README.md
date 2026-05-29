@@ -22,6 +22,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Invariant lines, real rotation, and defect](notes/invariant-lines-rotation-and-defect.md)
 - [Proof scaffold ladder](notes/proof-scaffold-ladder.md)
 - [Proof scaffold weekly bundle](notes/proof-scaffold-weekly-bundle.md)
+- [Bad proof to repaired proof packet](notes/bad-proof-to-repaired-proof-packet.md)
 - [Companion notebook: first proof problem bundle](notebooks/first-proof-problem-bundle.ipynb)
 - [Companion notebook: mixed proof-method problem bundle](notebooks/mixed-proof-method-problem-bundle.ipynb)
 - [Companion notebook: linear algebra bridge problem bundle](notebooks/linear-algebra-bridge-problem-bundle.ipynb)
@@ -30,6 +31,7 @@ The core claim is simple: start by learning to read and write proofs, then add c
 - [Companion notebook: invariant lines, real rotation, and defect](notebooks/invariant_lines_rotation_and_defect.ipynb)
 - [Companion notebook: proof scaffold ladder](notebooks/proof_scaffold_ladder.ipynb)
 - [Companion notebook: proof scaffold weekly bundle](notebooks/proof_scaffold_weekly_bundle.ipynb)
+- [Companion notebook: proof repair packet](notebooks/proof_repair_packet.ipynb)
 
 ## Preview
 
@@ -52,6 +54,10 @@ The core claim is simple: start by learning to read and write proofs, then add c
 ### Proof scaffold weekly bundle
 
 ![Proof scaffold weekly bundle](assets/proof-scaffold-weekly-bundle.png)
+
+### Bad proof to repaired proof packet
+
+![Bad proof to repaired proof packet](assets/proof-repair-packet.png)
 
 ## Why this repo exists
 
@@ -83,6 +89,7 @@ python3 scripts/generate_dependency_roadmap.py
 python3 scripts/generate_invariant_line_comparison.py
 python3 scripts/generate_proof_scaffold_ladder.py
 python3 scripts/generate_proof_scaffold_weekly_bundle.py
+python3 scripts/generate_proof_repair_packet.py
 ```
 
 ## Use it
@@ -116,6 +123,8 @@ Then use `notes/invariant-lines-rotation-and-defect.md` with `notebooks/invarian
 After that, use `notes/proof-scaffold-ladder.md` with `notebooks/proof_scaffold_ladder.ipynb` and `assets/proof-scaffold-ladder.png`. That packet does something different: it stops the learner from hiding behind recognition alone. The six rows deliberately omit one or more structural moves, then force the learner to name the missing move with answer-check prompts before moving on.
 
 Once the ladder itself makes sense, move to `notes/proof-scaffold-weekly-bundle.md` with `notebooks/proof_scaffold_weekly_bundle.ipynb` and `assets/proof-scaffold-weekly-bundle.png`. That second packet adds one missing layer of practice pressure: cold drafts first, answer-check prompts second, a running failure tally across the week, and a final repair loop chosen from the tally instead of from mood or memory.
+
+If the tally keeps pointing at the same broken hinge, use `notes/bad-proof-to-repaired-proof-packet.md` with `notebooks/proof_repair_packet.ipynb` and `assets/proof-repair-packet.png`. That packet does one narrower job: it keeps one plausible bad line on the page, names the missing structural move, and then rewrites the hinge instead of hiding the fix inside a polished final proof.
 
 That is where the plan stops being a nice outline and starts becoming real.
 

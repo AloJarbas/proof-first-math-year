@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2020" viewBox="0 0 1800 2020">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#071018"/>
+    <stop offset="100%" stop-color="#10233a"/>
+  </linearGradient>
+  <style>
+    .title { font: 700 40px Helvetica, Arial, sans-serif; fill: #e5eef7; }
+    .subtitle { font: 500 19px Helvetica, Arial, sans-serif; fill: #b4c3d4; }
+    .label { font: 700 22px Helvetica, Arial, sans-serif; fill: #dde7f1; }
+    .body { font: 500 19px Helvetica, Arial, sans-serif; fill: #c8d4e0; }
+    .small { font: 500 15px Helvetica, Arial, sans-serif; fill: #a8bacd; }
+    .tiny { font: 500 16px Helvetica, Arial, sans-serif; fill: #9cb0c4; }
+    .micro { font: 700 11px Helvetica, Arial, sans-serif; fill: #071018; }
+  </style>
+</defs>
+<rect width="1800" height="2020" fill="url(#bg)"/>
+<text x="60.0" y="72.0" class="title" text-anchor="start">Bad proof to repaired proof</text>
+<text x="60.0" y="108.0" class="subtitle" text-anchor="start"><tspan x="60.0" dy="0">A repair packet for the moment after the proof breaks but before the learner knows how to rewrite the hinge.</tspan><tspan x="60.0" dy="24">Each row keeps one plausible bad line on the page, names the missing structural move, and then shows the repair sentence that actually closes the gap.</tspan></text>
+<rect x="60.0" y="160.0" width="1680.0" height="140.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="84.0" y="198.0" class="label" text-anchor="start">Use it in four moves</text>
+<text x="90.0" y="228.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">1. Match your weak proof to the row whose bad line sounds dangerously familiar.</tspan></text>
+<text x="90.0" y="259.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">2. Name the missing step family before reading the repair sentence.</tspan></text>
+<text x="90.0" y="290.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">3. Rewrite the hinge once with the source prompt visible and once without the</tspan><tspan x="90.0" dy="21">starter line.</tspan></text>
+<text x="90.0" y="342.0" class="body" text-anchor="start"><tspan x="90.0" dy="0">4. Use the transfer check so the repair survives outside the original example.</tspan></text>
+<rect x="60.0" y="340.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="360.0" width="268.0" height="34.0" rx="16.0" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.0"/>
+<text x="218.0" y="383.0" class="micro" text-anchor="middle">ARBITRARY OBJECT</text>
+<text x="374.0" y="387.0" class="label" text-anchor="start">Subset chains still need a first element</text>
+<text x="1698.0" y="387.0" class="small" text-anchor="end">Subset chain</text>
+<text x="94.0" y="428.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="454.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">Since B ⊆ C, anything in B is in C.</tspan></text>
+<text x="94.0" y="512.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="538.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">That sentence starts in the middle. The proof never chooses</tspan><tspan x="94.0" dy="21">an arbitrary x ∈ A, so the inclusion A ⊆ B never gets used</tspan><tspan x="94.0" dy="21">on the same object.</tspan></text>
+<text x="780.0" y="428.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="454.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">Restart from one arbitrary x in A, then push that exact x</tspan><tspan x="780.0" dy="22">through both inclusions.</tspan></text>
+<text x="780.0" y="512.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="538.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">Let x be arbitrary with x ∈ A. Since A ⊆ B, we have x ∈ B; since B ⊆ C, we have x</tspan><tspan x="780.0" dy="21">∈ C. Therefore A ⊆ C.</tspan></text>
+<text x="1510.0" y="428.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="454.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">If the claim were A ∩ B ⊆</tspan><tspan x="1510.0" dy="22">A, what is the first</tspan><tspan x="1510.0" dy="22">arbitrary object you would</tspan><tspan x="1510.0" dy="22">choose?</tspan></text>
+<rect x="60.0" y="606.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="626.0" width="268.0" height="34.0" rx="16.0" fill="#f59e0b" stroke="#f59e0b" stroke-width="0.0"/>
+<text x="218.0" y="649.0" class="micro" text-anchor="middle">WITNESS / COEFFS</text>
+<text x="374.0" y="653.0" class="label" text-anchor="start">Divisibility needs an actual witness</text>
+<text x="1698.0" y="653.0" class="small" text-anchor="end">Divisibility under addition</text>
+<text x="94.0" y="694.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="720.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">Both b and c have a factor a, so b + c does too.</tspan></text>
+<text x="94.0" y="778.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="804.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">That is only a slogan. The integers witnessing a | b and a |</tspan><tspan x="94.0" dy="21">c are still hidden, so the new witness for b + c never</tspan><tspan x="94.0" dy="21">appears on the page.</tspan></text>
+<text x="780.0" y="694.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="720.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">Name b = am and c = an first, then use m + n as the new</tspan><tspan x="780.0" dy="22">witness instead of waving at a common factor.</tspan></text>
+<text x="780.0" y="778.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="804.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">Since a | b and a | c, there exist integers m and n with b = am and c = an. Then b</tspan><tspan x="780.0" dy="21">+ c = a(m + n), so a | (b + c).</tspan></text>
+<text x="1510.0" y="694.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="720.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">If the claim were a | (b −</tspan><tspan x="1510.0" dy="22">c), which witness changes</tspan><tspan x="1510.0" dy="22">and which part of the proof</tspan><tspan x="1510.0" dy="22">stays the same?</tspan></text>
+<rect x="60.0" y="872.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="892.0" width="268.0" height="34.0" rx="16.0" fill="#22c55e" stroke="#22c55e" stroke-width="0.0"/>
+<text x="218.0" y="915.0" class="micro" text-anchor="middle">CLOSURE SPLIT</text>
+<text x="374.0" y="919.0" class="label" text-anchor="start">A subspace proof cannot hide behind “by linearity”</text>
+<text x="1698.0" y="919.0" class="small" text-anchor="end">Kernel is a subspace</text>
+<text x="94.0" y="960.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="986.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">Ker(T) is closed under addition and scalar</tspan><tspan x="94.0" dy="22">multiplication by linearity.</tspan></text>
+<text x="94.0" y="1044.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="1070.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">That skips the whole structure. A kernel subspace proof</tspan><tspan x="94.0" dy="21">still owes three visible checkpoints: zero vector, additive</tspan><tspan x="94.0" dy="21">closure, and scalar closure.</tspan></text>
+<text x="780.0" y="960.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="986.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">Write the three checkpoints separately and compute T(u +</tspan><tspan x="780.0" dy="22">v) and T(αu) instead of summarizing them with one vague</tspan><tspan x="780.0" dy="22">sentence.</tspan></text>
+<text x="780.0" y="1044.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="1070.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">First T(0) = 0, so 0 ∈ Ker(T). If u, v ∈ Ker(T), then T(u + v) = T(u) + T(v) = 0,</tspan><tspan x="780.0" dy="21">so u + v ∈ Ker(T). If α is a scalar and u ∈ Ker(T), then T(αu) = αT(u) = 0, so αu</tspan><tspan x="780.0" dy="21">∈ Ker(T). Therefore Ker(T) is a subspace of V.</tspan></text>
+<text x="1510.0" y="960.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="986.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">If you were proving Im(T)</tspan><tspan x="1510.0" dy="22">is a subspace, which</tspan><tspan x="1510.0" dy="22">checkpoint would need a new</tspan><tspan x="1510.0" dy="22">witness and which two would</tspan><tspan x="1510.0" dy="22">stay the same?</tspan></text>
+<rect x="60.0" y="1138.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="1158.0" width="268.0" height="34.0" rx="16.0" fill="#a78bfa" stroke="#a78bfa" stroke-width="0.0"/>
+<text x="218.0" y="1181.0" class="micro" text-anchor="middle">ALGEBRA / COORDS</text>
+<text x="374.0" y="1185.0" class="label" text-anchor="start">A picture is not the contradiction</text>
+<text x="1698.0" y="1185.0" class="small" text-anchor="end">A real rotation has no nonzero invariant line</text>
+<text x="94.0" y="1226.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="1252.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">A 60° rotation changes the direction, so no nonzero</tspan><tspan x="94.0" dy="22">real line can stay invariant.</tspan></text>
+<text x="94.0" y="1310.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="1336.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">The intuition is fine, but the proof never turns “same line”</tspan><tspan x="94.0" dy="21">into Ru = λu and never squeezes a contradiction out of the</tspan><tspan x="94.0" dy="21">coordinate equations.</tspan></text>
+<text x="780.0" y="1226.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="1252.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">Take u = (x, y) ≠ 0, assume Ru = λu for some real λ, and</tspan><tspan x="780.0" dy="22">force the two rotated coordinates to agree with one real</tspan><tspan x="780.0" dy="22">scalar.</tspan></text>
+<text x="780.0" y="1310.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="1336.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">Let u = (x, y) ≠ 0 and assume Ru = λu with λ ∈ ℝ. Then (x/2 − √3 y/2, √3 x/2 +</tspan><tspan x="780.0" dy="21">y/2) = (λx, λy). From the two coordinates we get √3 y = (1 − 2λ)x and √3 x = (2λ −</tspan><tspan x="780.0" dy="21">1)y. Multiplying gives 3xy = −(2λ − 1)^2 xy, impossible when xy ≠ 0; if x = 0 or y</tspan><tspan x="780.0" dy="21">= 0, the equations force the other coordinate to vanish too. Contradiction.</tspan><tspan x="780.0" dy="21">Therefore no nonzero real invariant line exists.</tspan></text>
+<text x="1510.0" y="1226.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="1252.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">For a 90° rotation, which</tspan><tspan x="1510.0" dy="22">real-scalar equation would</tspan><tspan x="1510.0" dy="22">fail first if you tried the</tspan><tspan x="1510.0" dy="22">same Ru = λu setup?</tspan></text>
+<rect x="60.0" y="1404.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="1424.0" width="268.0" height="34.0" rx="16.0" fill="#f97316" stroke="#f97316" stroke-width="0.0"/>
+<text x="218.0" y="1447.0" class="micro" text-anchor="middle">CONTRADICTION PIVOT</text>
+<text x="374.0" y="1451.0" class="label" text-anchor="start">Old independence cannot be used too early</text>
+<text x="1698.0" y="1451.0" class="small" text-anchor="end">Adjoining a vector outside the span</text>
+<text x="94.0" y="1492.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="1518.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">Because v₁, …, v_k are linearly independent, all</tspan><tspan x="94.0" dy="22">coefficients are zero.</tspan></text>
+<text x="94.0" y="1576.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="1602.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">Not yet. The old independence only applies after the new</tspan><tspan x="94.0" dy="21">coefficient β has been forced to zero. Until then, the</tspan><tspan x="94.0" dy="21">relation still contains the extra vector v.</tspan></text>
+<text x="780.0" y="1492.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="1518.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">Start from one generic linear relation, isolate the β ≠ 0</tspan><tspan x="780.0" dy="22">branch, and use it to push v back into the old span before</tspan><tspan x="780.0" dy="22">invoking the old independence.</tspan></text>
+<text x="780.0" y="1576.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="1602.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">Assume α₁v₁ + ··· + α_kv_k + βv = 0. If β ≠ 0, then v = −(α₁/β)v₁ − ··· −</tspan><tspan x="780.0" dy="21">(α_k/β)v_k, so v lies in span(v₁, …, v_k), contradiction. Hence β = 0. Then α₁v₁ +</tspan><tspan x="780.0" dy="21">··· + α_kv_k = 0, so the old independence forces α₁ = ··· = α_k = 0. Therefore v₁,</tspan><tspan x="780.0" dy="21">…, v_k, v are linearly independent.</tspan></text>
+<text x="1510.0" y="1492.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="1518.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">In a basis-extension proof,</tspan><tspan x="1510.0" dy="22">which coefficient has to be</tspan><tspan x="1510.0" dy="22">isolated before the old</tspan><tspan x="1510.0" dy="22">independence becomes legal</tspan><tspan x="1510.0" dy="22">to use?</tspan></text>
+<rect x="60.0" y="1670.0" width="1680.0" height="242.0" rx="28.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<rect x="84.0" y="1690.0" width="268.0" height="34.0" rx="16.0" fill="#f43f5e" stroke="#f43f5e" stroke-width="0.0"/>
+<text x="218.0" y="1713.0" class="micro" text-anchor="middle">CLOSE THE CLAIM</text>
+<text x="374.0" y="1717.0" class="label" text-anchor="start">The computation is not the full inclusion</text>
+<text x="1698.0" y="1717.0" class="small" text-anchor="end">T² = 0 forces Im(T) ⊆ Ker(T)</text>
+<text x="94.0" y="1758.0" class="small" text-anchor="start" fill="#fca5a5">Bad line</text>
+<text x="94.0" y="1784.0" class="body" text-anchor="start" fill="#fee2e2"><tspan x="94.0" dy="0">So T(y) = 0.</tspan></text>
+<text x="94.0" y="1842.0" class="small" text-anchor="start" fill="#93c5fd">Why it fails</text>
+<text x="94.0" y="1868.0" class="tiny" text-anchor="start"><tspan x="94.0" dy="0">That line only computes the kernel condition. The proof</tspan><tspan x="94.0" dy="21">still has to say y ∈ Ker(T) and then cash the arbitrary</tspan><tspan x="94.0" dy="21">choice of y out into Im(T) ⊆ Ker(T).</tspan></text>
+<text x="780.0" y="1758.0" class="small" text-anchor="start" fill="#fde68a">Repair cue</text>
+<text x="780.0" y="1784.0" class="body" text-anchor="start" fill="#fef3c7"><tspan x="780.0" dy="0">After the computation, restate the membership fact and</tspan><tspan x="780.0" dy="22">close the arbitrary-element argument as an inclusion</tspan><tspan x="780.0" dy="22">sentence.</tspan></text>
+<text x="780.0" y="1842.0" class="small" text-anchor="start" fill="#86efac">Repaired hinge</text>
+<text x="780.0" y="1868.0" class="tiny" text-anchor="start" fill="#dcfce7"><tspan x="780.0" dy="0">Take y ∈ Im(T). Then y = T(x) for some x ∈ V. Hence T(y) = T(T(x)) = T²(x) = 0, so</tspan><tspan x="780.0" dy="21">y ∈ Ker(T). Because y was arbitrary in Im(T), we conclude Im(T) ⊆ Ker(T).</tspan></text>
+<text x="1510.0" y="1758.0" class="small" text-anchor="start" fill="#c4b5fd">Transfer check</text>
+<text x="1510.0" y="1784.0" class="body" text-anchor="start" fill="#ede9fe"><tspan x="1510.0" dy="0">If you prove every y ∈ Y</tspan><tspan x="1510.0" dy="22">lies in Z, what closing</tspan><tspan x="1510.0" dy="22">sentence turns that</tspan><tspan x="1510.0" dy="22">pointwise fact into Y ⊆ Z?</tspan></text>
+<rect x="60.0" y="1928.0" width="1680.0" height="58.0" rx="24.0" fill="#122033" stroke="#32485f" stroke-width="2.0"/>
+<text x="84.0" y="1962.0" class="small" text-anchor="start">Companion files: notes/bad-proof-to-repaired-proof-packet.md · notebooks/proof_repair_packet.ipynb · assets/proof-repair-packet.csv</text>
+<text x="1740.0" y="1996.0" class="tiny" text-anchor="end">Generated by scripts/generate_proof_repair_packet.py</text>
+</svg>
